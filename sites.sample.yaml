@@ -10,7 +10,7 @@ site0:
      url: http://pro.server01.local/app01
 
 site1:
-     aplicacion: tomcat1
+     aplicacion: tomcat1-dev
      alias: app01
      entorno: PRE
      ubicacion: server02
