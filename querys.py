@@ -12,7 +12,7 @@ from backup import backup
 
 session = Session()
 
-# 3 - extract all movies
+# 3 - extract all sites 
 sites = session.query(site).all()
 
 print('\n### All sites:')
