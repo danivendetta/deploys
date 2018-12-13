@@ -1,0 +1,21 @@
+site0:
+     aplicacion: tomcat1
+     alias: app01
+     entorno: PRO
+     ubicacion: server01
+     svn_url: http:/svn.svnserver.local/app01/trunk/
+     path: /usr/local/tomcat/tomcat1/webapps
+     ip: localhost
+     puerto: 8080
+     url: http://pro.server01.local/app01
+
+site1:
+     aplicacion: tomcat1
+     alias: app01
+     entorno: PRE
+     ubicacion: server02
+     svn_url: http:/svn.svnserver.local/app01/branch/pre
+     path: /usr/local/tomcat/tomcat1/webapps
+     ip: localhost
+     puerto: 8081
+     url: http://pre.server01.local/app01

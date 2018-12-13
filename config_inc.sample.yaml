@@ -1,0 +1,4 @@
+dbhost: localhost
+user: deploys_database_user
+password: user_password
+database: deploys_database
