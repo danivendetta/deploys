@@ -5,8 +5,6 @@
 # Nom:            deploy.py
 # Purpose:      deploys automatics.
 #
-# Autor:	Daniel Jiménez Nieto
-#
 # Creacio:      05 de December 2018
 # Copyright:    (c) 2007 per DAI.
 # Llicència:    GNU GENERAL PUBLIC LICENSE Version 3
