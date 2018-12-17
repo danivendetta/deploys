@@ -22,14 +22,7 @@ class deploy(Base):
 
 
     def __init__(self, site, entorno, backup_id):
-        #self.deploy_id = deploy_id
+
         self.site = site
         self.entorno = entorno
-        #self.fecha = fecha
         self.backup_id = backup_id
-
-
-#	INDEX `fk_site` (`site`),
-#	INDEX `fk_backup` (`backup_id`),
-#	CONSTRAINT `fk_backup` FOREIGN KEY (`backup_id`) REFERENCES `backups` (`backup_id`),
-#	CONSTRAINT `fk_site` FOREIGN KEY (`site`) REFERENCES `site` (`aplicacion`)

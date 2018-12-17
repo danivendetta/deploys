@@ -7,8 +7,7 @@ from base import Session, engine, Base
 from sitios import site
 from deploy import deploy
 from backup import backup
-
-
+ 
 # 2 - generate database schema
 Base.metadata.create_all(engine)
 

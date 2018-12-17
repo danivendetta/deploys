@@ -13,9 +13,8 @@ class backup(Base):
     fecha = Column(Date, default=datetime.datetime.utcnow)
     path = Column(String(250))
 
-    #def __init__(self, backup_id, site, fecha, path):
+
     def __init__(self, site, path):
-        #self.backup_id = backup_id
+
         self.site = site
-        #self.fecha = fecha
         self.path = path
